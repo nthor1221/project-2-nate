@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What are you saying?</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <img src="images/talktome.gif" alt="">
+        </div>
+    
+        <h2 id="header1"><span>Select an option</span></h2>
+        <!-- First dropdown -->
+        <select id="dropdown1" onchange="handleDropdownChange(1)">
+            <option value="">-- Select an option --</option>
+            <option value="option1">...</option>
+        </select>
+
+        <!-- Second dropdown -->
+        <div id="dropdown2-container" class="transparent-70 hidden">
+            <h2 id="header2"><span>Select a secondary option</span></h2>
+            <select id="dropdown2" onchange="handleDropdownChange(2)">
+                <option value="">-- Select an option --</option>
+                <option value="suboption1">hello</option>
+            </select>
+        </div>
+
+        <!-- Third dropdown -->
+        <div id="dropdown3-container" class="transparent-60 hidden">
+            <h2 id="header3"><span>Select a tertiary option</span></h2>
+            <select id="dropdown3" onchange="handleDropdownChange(3)">
+                <option value="">-- Select an option --</option>
+                <option value="subsuboption1">I don't understand</option>
+            </select>
+        </div>
+
+        <!-- Fourth dropdown -->
+        <div id="dropdown4-container" class="transparent-50 hidden">
+            <h2 id="header4"><span>Select a fourth option</span></h2>
+            <select id="dropdown4" onchange="handleDropdownChange(4)">
+                <option value="">-- Select an option --</option>
+                <option value="suboption2">All I can do is</option>
+            </select>
+        </div>
+
+        <!-- Fifth dropdown -->
+        <div id="dropdown5-container" class="transparent-40 hidden">
+            <h2 id="header5"><span>Select a fifth option</span></h2>
+            <select id="dropdown5" onchange="handleDropdownChange(5)">
+                <option value="">-- Select an option --</option>
+                <option value="subsuboption2">listen and try to grasp some meaning</option>
+            </select>
+        </div>
+
+        <!-- Sixth dropdown -->
+        <div id="dropdown6-container" class="transparent-30 hidden">
+            <h2 id="header6"><span>Select a sixth option</span></h2>
+            <select id="dropdown6" onchange="handleDropdownChange(6)">
+                <option value="">-- Select an option --</option>
+                <option value="suboption3">But even then</option>
+            </select>
+        </div>
+
+        <!-- Seventh dropdown -->
+        <div id="dropdown7-container" class="transparent-20 hidden">
+            <h2 id="header7"><span>Select a seventh option</span></h2>
+            <select id="dropdown7" onchange="handleDropdownChange(7)">
+                <option value="">-- Select an option --</option>
+                <option value="subsuboption3">I don't know what you're saying</option>
+            </select>
+        </div>
+
+        <!-- Eighth dropdown -->
+        <div id="dropdown8-container" class="transparent-10 hidden">
+            <h2 id="header8"><span>Select an eighth option</span></h2>
+            <select id="dropdown8" onchange="handleDropdownChange(8)">
+                <option value="">-- Select an option --</option>
+                <option value="suboption4">...</option>
+            </select>
+        </div>
+ 
+        <!-- Ninth dropdown -->
+        <div id="dropdown9-container" class="transparent-0 hidden">
+            <h2 id="header9"><span>Select an eighth option</span></h2>
+            <select id="dropdown">
+                <option value="">-- Select an option --</option>
+                <option value="suboption4">why can't I understand</option>
+            </select>
+        </div>
+    </div>
+
+</div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

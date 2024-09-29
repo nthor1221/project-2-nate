@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+   font-family: Arial, sans-serif;
+   margin: 20px;
+}
+
+h2 {
+   font-size: 20px;
+}
+
+select, input[type="text"] {
+   padding: 10px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+   font-size: 16px;
+   width: 200px;
+   transition: opacity 0.5s ease;
+}
+
+.hidden {
+   opacity: 0;
+   visibility: hidden;
+   transition: visibility 0s 0.5s, opacity 0.5s ease;  /* Smooth fade-in */
+}
+
+.visible {
+   opacity: 1;
+   visibility: visible;
+   transition: opacity 0.5s ease;  /* Smooth fade-in */
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.transparent-70 select {
+   opacity: 0.7;  /* 30% transparent */
+}
+
+/* Transparent versions of the dropdowns */
+.transparent-60 select {
+   opacity: 0.6;  /* 50% transparent */
+}
+
+/* Transparent versions of the dropdowns */
+.transparent-50 select {
+   opacity: 0.5;  /* 50% transparent */
+}
+
+/* Transparent versions of the dropdowns */
+.transparent-40 select {
+   opacity: 0.4;  /* 50% transparent */
+}
+
+/* Transparent versions of the dropdowns */
+.transparent-30 select {
+   opacity: 0.3;  /* 50% transparent */
+}
+
+/* Transparent versions of the dropdowns */
+.transparent-20 select {
+   opacity: 0.2;  /* 50% transparent */
+}
+
+/* Transparent versions of the dropdowns */
+.transparent-10 select {
+   opacity: 0.1;  /* 50% transparent */
+}
+
+
+/* Transparent versions of the dropdowns */
+.transparent-0 select {
+   opacity: 0.0;  /* 50% transparent */
+}
